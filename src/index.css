@@ -27,6 +27,7 @@ code {
 .content span.img-txt {
   background-color: #333;
   text-transform: uppercase;
+  text-align: center;
   color: #ffff;
   padding: 1rem;
   font-size: 1.5rem;
@@ -34,8 +35,16 @@ code {
 }
 .text-box {
   text-align: center;
-  padding: 50px 120px;
+  padding: 50px 18px;
 }
 .brand {
-  padding-left: 120px;
+  text-align: center;
+}
+/********************************* Tablet ***********************************/
+@media (min-width: 768px) {
+  .brand {
+    text-align: left;
+    margin-left: 120px;
+  }
+  
 }
