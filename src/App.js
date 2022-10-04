@@ -7,7 +7,7 @@ import TextBox from "./components/textBox";
 function App() {
   return (
     <div>
-      <h1 className="brand">Parallax Space</h1>
+      <h1 className="brand">Parallax Space Travel</h1>
       <ImageOne />
       <TextBox />
       <ImageTwo />
